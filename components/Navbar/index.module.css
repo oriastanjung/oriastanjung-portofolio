@@ -33,6 +33,12 @@
     align-items: center;
     flex-direction: row;
 }
+.nav-item-left .nav-link ul li{
+    cursor: pointer;
+}
+.nav-item-left .nav-link ul li:hover{
+    border-bottom: 1px solid rgb(255, 94, 0);
+}
 .nav-link ul li a{
     font-family: 'Poppins',sans-serif;
     font-weight: 100;
