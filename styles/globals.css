@@ -26,7 +26,7 @@ a {
 }
 
 main{
-  height: 600px;
+  height: 550px;
 }
 
 footer{
@@ -53,14 +53,10 @@ footer span img{
 }
 
 .background-img{
-  background-image: url("../assets/BACKGROUND\ WEBSITE.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("../assets/BACKGROUND\ WEBSITE.png")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -97,13 +93,26 @@ footer span img{
 
 
 .items{
-  height: 400px;
-  width: 100px;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  flex-direction: column;
+  justify-content: flex-end;
+  flex-direction: row;
   flex-wrap: wrap;
+  gap: 1rem;
   margin: 2.5% 4.5%;
 }
+.one-items-column{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
 
+.four-items-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+
+}

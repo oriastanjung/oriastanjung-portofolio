@@ -18,3 +18,9 @@
     font-weight: 300;
     margin: 0;
 }
+
+.item:hover{
+    cursor: pointer;
+    background-color: rgba(119, 247, 247, 0.244);
+    border-radius: 10px;
+}

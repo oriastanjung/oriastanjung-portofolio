@@ -72,7 +72,12 @@
 .icon-logo{
     width: 2rem;
     height: 2rem;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.376);
     border-radius: 50%;
     opacity: 100%;
+}
+
+.icon-logo:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: white;
 }

@@ -3,13 +3,20 @@ import React from "react";
 import styles from "./index.module.css";
 import Image from "next/image";
 import searchIcon from "../../assets/searchIcon.png";
-import Router, {useRouter} from "next/router";
+import githubIcon from "../../assets/github-icon.png";
+import {useRouter} from "next/router";
+
 function Navbar() {
+  const router = useRouter();
   return (
     <header className={styles.header}>
       <nav>
         <div className={styles["nav-item-left"]}>
-          <div className={`${styles["icon-logo"]}`}></div>
+          <div className={`${styles["icon-logo"]}`} style={{cursor:'pointer'}}>
+            <Link href={'https://github.com/oriastanjung'}>
+              <Image src={githubIcon} />
+            </Link>
+          </div>
           <div className={styles["nav-link"]}>
             <h4>Hello, World!</h4>
             <ul>
@@ -37,7 +44,9 @@ function Navbar() {
           </div>
         </div>
         <div className={styles["nav-item-right"]} style={{cursor:"pointer"}}>
-          <h1 onClick={()=> Router.push('/')}>O. Riastanjung</h1>
+          <Link href={'/'}>
+            <h1>O. Riastanjung</h1>
+          </Link>
           <Image src={searchIcon}></Image>
         </div>
       </nav>

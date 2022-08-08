@@ -10,7 +10,7 @@ function Layout(props) {
 
 
   return (
-    <div className="background-img" onClick={() => router.push('/')}>
+    <div className="background-img">
       <Head></Head>
       <Navbar></Navbar>
       {props.children}
