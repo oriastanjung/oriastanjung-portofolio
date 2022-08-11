@@ -54,7 +54,7 @@ function ApplicationWindow(props) {
         </div>
         <div>{' '}</div>
       </div>
-      <div>{props.children}</div>
+      <div className={styles['window-content']}>{props.children}</div>
     </div>
   );
 }

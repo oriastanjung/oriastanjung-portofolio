@@ -1,0 +1,29 @@
+.project{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    cursor: pointer;
+    gap: 0;
+}
+.project:hover{
+    transition: all 0.3s ease-in-out;
+    margin-top: -1rem;
+}
+.project div{
+    border-radius: 18px;
+}
+.project div img {
+    border-radius: 18px !important;
+    width: 200px !important; 
+    height: 140px !important;
+    object-fit: cover !important;
+}
+
+.project h6{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    margin: 0.25rem;
+
+}

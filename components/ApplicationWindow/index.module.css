@@ -4,6 +4,11 @@
     height: 90%;
     margin: 2.5%;
 }
+
+.window-content{
+    height: 90%;
+    overflow: scroll;
+}
 .circle {
     padding: 3px;
     display: flex;
