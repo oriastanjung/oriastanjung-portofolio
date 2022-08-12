@@ -1,26 +1,55 @@
-import React from 'react'
-
+import React from "react";
+import dataProject from "../../../json/dataProjects.json";
+import Layout from "../../../components/Layout";
+import ApplicationWindow from "../../../components/ApplicationWindow";
+import projectIcon from "../../../assets/projects.png";
+import Image from "next/image";
+import imgProject from "../../../public/projects/movflix/fullpage.png"
 export default function Projects(props) {
-    const id_project = props.id;
-    const data = props.data.filter((project) => {
-        return project.id === id_project
-    })
-    
+  const item = props.data.filter((project) => {
+    // console.log(project.srcFullpage);
+    return project.id == props.id;
+  });
   return (
-    <div>
-        {data}
-    </div>
-  )
+    <Layout>
+      <main>
+        <ApplicationWindow iconWindow={projectIcon} windowTitle={"Projects"}>
+          <div className="detail-project">
+            <div className="detail-project-img" >
+                {/* {console.log(item[0].srcFullpage)} */}
+                <img src={item[0].srcFullpage} width={'100px'} height={'100px'}/>
+            </div>
+            <div className="detail-project-desc">
+                <h6>{item[0].title}</h6>
+                <p>Description</p>
+                <div className="detail-project-desc-description">
+                    <p>{item[0].description}</p>
+                </div>
+                <p>Technology</p>
+                <div className="detail-project-desc-description">
+                    <p>{item[0].technology}</p>
+                    <ul>
+                        {item[0].techList.map((tech, idx) => {
+                            return <li key={idx} >*{tech}</li>
+                        })}
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </ApplicationWindow>
+      </main>
+    </Layout>
+  );
 }
 
+export async function getServerSideProps(context) {
+  const { params } = context;
+  const { id } = params;
 
-export async function getServerSideProps(context){
-    const {params} = context;
-    const {id} = params;
-    
-    return {
-        props:{
-            id : id,
-        }
-    }
+  return {
+    props: {
+      id: id,
+      data: dataProject,
+    },
+  };
 }

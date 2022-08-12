@@ -8,7 +8,7 @@ function ProjectsList(props) {
       {data.map((item) => {
         return (
           <li key={item.id} style={{ color: "white" }}>
-            <ProjectItem item={item} />
+            <ProjectItem item={item}/>
           </li>
         );
       })}
