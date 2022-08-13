@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import dataProject from "../../../json/dataProjects.json";
 import Layout from "../../../components/Layout";
 import ApplicationWindow from "../../../components/ApplicationWindow";
@@ -34,6 +35,8 @@ export default function Projects(props) {
                         })}
                     </ul>
                 </div>
+
+                  <a target="_blank" href={item[0].websiteUrl} rel="noopener noreferrer">Visit</a>
             </div>
           </div>
         </ApplicationWindow>

@@ -1,0 +1,26 @@
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.skill h6{
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.skill p{
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.skill img {
+    width: 50px !important;
+    height: 50px !important;
+}
