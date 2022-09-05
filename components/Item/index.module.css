@@ -24,3 +24,10 @@
     background-color: rgba(119, 247, 247, 0.244);
     border-radius: 10px;
 }
+
+@media (max-width:630px) {
+    .item img{
+        width: 60px !important;
+        height: 60px !important;
+    }
+}
