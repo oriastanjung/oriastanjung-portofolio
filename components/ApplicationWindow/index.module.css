@@ -86,3 +86,13 @@
     margin: 0;
     padding: 0;
 }
+
+.terminal{
+    /* position: absolute; */
+    /* z-index: 999; */
+    /* width: 200%; */
+    flex-grow: 2;
+}
+.isTerminal {
+    width: 450px;
+}

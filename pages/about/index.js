@@ -20,6 +20,7 @@ import logoMongo from "../../assets/mongodb.png";
 import logoCPP from "../../assets/c++-logo.png";
 import logoPython from "../../assets/python.png";
 import logoFigma from "../../assets/figma-logo.png";
+import logoReactNative from "../../assets/react-native-logo.png"
 import Link from "next/link";
 
 function about() {
@@ -80,13 +81,13 @@ function about() {
               />
               <Skill
                 srcSkillImg={logoTailwind}
-                title="Boo"
+                title="TailwindCSS"
                 level={"Beginner"}
               />
               <Skill
                 srcSkillImg={logoMongo}
                 title="Mongodb"
-                level={"Beginner"}
+                level={"Intermediate"}
               />
               <Skill srcSkillImg={logoCPP} title="C++" level={"Intermediate"} />
               <Skill
@@ -98,6 +99,16 @@ function about() {
                 srcSkillImg={logoFigma}
                 title="Figma"
                 level={"Intermediate"}
+              />
+              <Skill
+                srcSkillImg={logoExpress}
+                title="ExpressJS"
+                level={"Intermediate"}
+              />
+              <Skill
+                srcSkillImg={logoReactNative}
+                title="React Native"
+                level={"Beginner"}
               />
             </section>
           </section>

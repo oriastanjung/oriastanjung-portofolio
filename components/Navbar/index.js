@@ -4,16 +4,24 @@ import styles from "./index.module.css";
 import Image from "next/image";
 import searchIcon from "../../assets/searchIcon.png";
 import githubIcon from "../../assets/github-icon.png";
-import {useRouter} from "next/router";
-
+import { useRouter } from "next/router";
+import { useState } from "react";
 function Navbar() {
   const router = useRouter();
+  const [date, setDate] = useState(new Date());
+  const tick = () => {
+    setDate(new Date());
+  };
+  setInterval(() => tick(), 1000);
   return (
     <header className={styles.header}>
       <nav>
         <div className={styles["nav-item-left"]}>
-          <div className={`${styles["icon-logo"]}`} style={{cursor:'pointer'}}>
-            <Link href={'https://github.com/oriastanjung'}>
+          <div
+            className={`${styles["icon-logo"]}`}
+            style={{ cursor: "pointer" }}
+          >
+            <Link href={"https://github.com/oriastanjung"}>
               <Image src={githubIcon} />
             </Link>
           </div>
@@ -43,8 +51,9 @@ function Navbar() {
             </ul>
           </div>
         </div>
-        <div className={styles["nav-item-right"]} style={{cursor:"pointer"}}>
-          <Link href={'/'}>
+        <div className={styles["nav-item-right"]} style={{ cursor: "pointer" }}>
+          <p>{date.toLocaleTimeString()}</p>
+          <Link href={"/"}>
             <h1>O. Riastanjung</h1>
           </Link>
           <Image src={searchIcon}></Image>

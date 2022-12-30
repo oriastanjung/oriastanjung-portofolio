@@ -6,7 +6,8 @@ import closeButtonIcon from "../../assets/close-window.png";
 import minimizeButtonIcon from "../../assets/minimize-window.png";
 import expandButtonIcon from "../../assets/expand-window.png";
 import shrinkButtonIcon from "../../assets/shrink-window.png";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 function ApplicationWindow(props) {
   const [classNameMaximize, setClassNameMaximize] = useState([styles.window]);
   const [isMaximize, setIsMaximize] = useState(false);
@@ -14,7 +15,21 @@ function ApplicationWindow(props) {
   const maximizeHandler = () => {
     if (isMaximize === false) {
       setIsMaximize(true);
-      setClassNameMaximize([styles.maximize, ...classNameMaximize]);
+      if (props.isTerminal) {
+        // setClassNameMaximize([...classNameMaximize]);
+        toast.error("Maximize screen disabled on Terminal", {
+          position: "top-center",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: false,
+          pauseOnHover: false,
+          // draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+      } else {
+        setClassNameMaximize([styles.maximize, ...classNameMaximize]);
+      }
     } else {
       setClassNameMaximize([styles.window]);
       setIsMaximize(false);
@@ -22,7 +37,12 @@ function ApplicationWindow(props) {
   };
 
   return (
-    <div className={[...classNameMaximize].join(" ")}>
+    <div
+      className={`${[...classNameMaximize].join(" ")} ${
+        props.isTerminal ? styles["isTerminal"] : ""
+      }`}
+    >
+      <ToastContainer />
       <div className={styles["window-bar"]}>
         <div className={styles["window-button"]}>
           <Link href={"/"}>
@@ -46,15 +66,13 @@ function ApplicationWindow(props) {
             )}
           </div>
         </div>
-        <div className={styles['window-title']}>
-            <Image src={props.iconWindow} />
-            <h6>
-                {props.windowTitle}
-            </h6>
+        <div className={styles["window-title"]}>
+          <Image src={props.iconWindow} />
+          <h6>{props.windowTitle}</h6>
         </div>
-        <div>{' '}</div>
+        <div> </div>
       </div>
-      <div className={styles['window-content']}>{props.children}</div>
+      <div className={styles["window-content"]}>{props.children}</div>
     </div>
   );
 }

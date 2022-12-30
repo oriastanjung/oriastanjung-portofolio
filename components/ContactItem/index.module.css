@@ -1,0 +1,13 @@
+.contact-item img{
+    width: 50px !important;
+}
+.contact-item p{
+    margin-bottom: 0;
+}
+.contact-item a{
+    margin-bottom: 0;
+    font-weight: 200;
+}
+.contact-item a:hover{
+    text-decoration: underline;
+}

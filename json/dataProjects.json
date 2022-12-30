@@ -1,152 +1,225 @@
-[{
-    "id" : "1",
-    "title" : "MovFlix React JS",
-    "description" : "This Website is a list of movies that get from the API using Rest API TMDB API. Here you can read, see the rate of the movies, and search the best movies suit to you.",
+[
+  {
+    "id": "1",
+    "title": "MovFlix React JS",
+    "description": "This Website is a list of movies that get from the API using Rest API TMDB API. Here you can read, see the rate of the movies, and search the best movies suit to you.",
     "technology": "I use ReactJS and vanilla CSS for the Frontend and using Restful API TMDB API.",
-    "techList" : ["ReactJS","TMDB API","CSS"],
-    "websiteUrl" : "https://oriastanjung.github.io/GDSCmovflix-react/",
-    "srcThumbnail" : "/projects/movflix/thumbnail.png",
-    "srcFullpage" : "/projects/movflix/fullpage.png"
-},
-{
-    "id" : "2",
-    "title" : "YouTube Clone",
-    "description" : "This Website is a clone of YouTube that i learned from watching YouTube Channel : Clever Programming. Its only some interface and only one function that work like Searching (dummy data). Fun fact : This one is actually my first based on learn ReactJS Projects :)",
+    "techList": ["ReactJS", "TMDB API", "CSS"],
+    "websiteUrl": "https://oriastanjung.github.io/GDSCmovflix-react/",
+    "srcThumbnail": "/projects/movflix/thumbnail.png",
+    "srcFullpage": "/projects/movflix/fullpage.png"
+  },
+  {
+    "id": "2",
+    "title": "YouTube Clone",
+    "description": "This Website is a clone of YouTube that i learned from watching YouTube Channel : Clever Programming. Its only some interface and only one function that work like Searching (dummy data). Fun fact : This one is actually my first based on learn ReactJS Projects :)",
     "technology": "I use ReactJS and vanilla CSS for the Frontend and using dummy data on React State.",
-    "techList" : ["ReactJS","CSS"],
-    "websiteUrl" : "https://oriastanjung.github.io/youtube-clone/",
-    "srcThumbnail" : "/projects/youtube-clone/thumbnail.png",
-    "srcFullpage" : "/projects/youtube-clone/fullpage.png"
-},
-{
-    "id" : "3",
-    "title" : "Rivaille - Landing Page",
-    "description" : "A Website which i build to complete my course at Dicoding Academy for the final project based on what i learn from the course. It is just simple landing page that the data is just not based on true story :)",
+    "techList": ["ReactJS", "CSS"],
+    "websiteUrl": "https://oriastanjung.github.io/youtube-clone/",
+    "srcThumbnail": "/projects/youtube-clone/thumbnail.png",
+    "srcFullpage": "/projects/youtube-clone/fullpage.png"
+  },
+  {
+    "id": "3",
+    "title": "Rivaille - Landing Page",
+    "description": "A Website which i build to complete my course at Dicoding Academy for the final project based on what i learn from the course. It is just simple landing page that the data is just not based on true story :)",
     "technology": "I use HTML5, CSS, and Vanilla Javascript to build it",
-    "techList" : ["HTML5","CSS","Javascript"],
-    "websiteUrl" : "https://oriastanjung.github.io/rivaille-page/",
-    "srcThumbnail" : "/projects/rivaille/thumbnail.png",
-    "srcFullpage" : "/projects/rivaille/fullpage.png"
-},
-{
-    "id" : "4",
-    "title" : "Simple Web Calculator",
-    "description" : "A Website which i build to complete my course at Dicoding Academy for the final project based on what i learn from the course. It is just simple calculator web using Javascript.",
+    "techList": ["HTML5", "CSS", "Javascript"],
+    "websiteUrl": "https://oriastanjung.github.io/rivaille-page/",
+    "srcThumbnail": "/projects/rivaille/thumbnail.png",
+    "srcFullpage": "/projects/rivaille/fullpage.png"
+  },
+  {
+    "id": "4",
+    "title": "Simple Web Calculator",
+    "description": "A Website which i build to complete my course at Dicoding Academy for the final project based on what i learn from the course. It is just simple calculator web using Javascript.",
     "technology": "I use HTML5, CSS, and Vanilla Javascript to build it",
-    "techList" : ["HTML5","CSS","Javascript"],
-    "websiteUrl" : "https://oriastanjung.github.io/simple-web-calculator/",
-    "srcThumbnail" : "/projects/web-calculator/thumbnail.png",
-    "srcFullpage" : "/projects/web-calculator/fullpage.png"
-},
-{
-    "id" : "5",
-    "title" : "College Faculty Page",
-    "description" : "A Website which i build to complete my Mid Term project. It is about my College Campus Faculty.",
+    "techList": ["HTML5", "CSS", "Javascript"],
+    "websiteUrl": "https://oriastanjung.github.io/simple-web-calculator/",
+    "srcThumbnail": "/projects/web-calculator/thumbnail.png",
+    "srcFullpage": "/projects/web-calculator/fullpage.png"
+  },
+  {
+    "id": "5",
+    "title": "College Faculty Page",
+    "description": "A Website which i build to complete my Mid Term project. It is about my College Campus Faculty.",
     "technology": "I use HTML5, and CSS to build it",
-    "techList" : ["HTML5","CSS"],
-    "websiteUrl" : "https://oriastanjung.github.io/Fakultas-Web-Promotion/",
-    "srcThumbnail" : "/projects/faculty/thumbnail.png",
-    "srcFullpage" : "/projects/faculty/fullpage.png"
-
-},
-{
-    "id" : "6",
-    "title" : "React Weather",
-    "description" : "A Website to check the temperature on some specific city in the world.",
+    "techList": ["HTML5", "CSS"],
+    "websiteUrl": "https://oriastanjung.github.io/Fakultas-Web-Promotion/",
+    "srcThumbnail": "/projects/faculty/thumbnail.png",
+    "srcFullpage": "/projects/faculty/fullpage.png"
+  },
+  {
+    "id": "6",
+    "title": "React Weather",
+    "description": "A Website to check the temperature on some specific city in the world.",
     "technology": "I use ReactJS, OpenWeather API and CSS to build it",
-    "techList" : ["ReactJS","CSS", "OpenWeather API"],
-    "websiteUrl" : "https://oriastanjung.github.io/react-weather/",
-    "srcThumbnail" : "/projects/react-weather/thumbnail.png",
-    "srcFullpage" : "/projects/react-weather/fullpage.png"
-},
-{
-    "id" : "7",
-    "title" : "Alvaction - Always Vacation",
-    "description" : "This Website is based on my learning course at BuildWithAngga. This Website contain some places to go for vacation.",
+    "techList": ["ReactJS", "CSS", "OpenWeather API"],
+    "websiteUrl": "https://oriastanjung.github.io/react-weather/",
+    "srcThumbnail": "/projects/react-weather/thumbnail.png",
+    "srcFullpage": "/projects/react-weather/fullpage.png"
+  },
+  {
+    "id": "7",
+    "title": "Alvaction - Always Vacation",
+    "description": "This Website is based on my learning course at BuildWithAngga. This Website contain some places to go for vacation.",
     "technology": "I use ReactJS, and Bootstrap 5 to build the Frontend. For the Data given, i using only dummy data from JSON",
-    "techList" : ["ReactJS","Bootstrap 5"],
-    "websiteUrl" : "https://alvacation.vercel.app/",
-    "srcThumbnail" : "/projects/alvacation/thumbnail.png",
-    "srcFullpage" : "/projects/alvacation/fullpage.png"
-},
-{
-    "id" : "8",
-    "title" : "Simple Food Order",
-    "description" : "This Website is based on my learning course at Udemy. This Website build for me to remember ReactJS again cause i kinda always forgot when im into some other projects. It using React Hooks such as useState, useEffect, useReducer and useRef.",
+    "techList": ["ReactJS", "Bootstrap 5"],
+    "websiteUrl": "https://alvacation.vercel.app/",
+    "srcThumbnail": "/projects/alvacation/thumbnail.png",
+    "srcFullpage": "/projects/alvacation/fullpage.png"
+  },
+  {
+    "id": "8",
+    "title": "Simple Food Order",
+    "description": "This Website is based on my learning course at Udemy. This Website build for me to remember ReactJS again cause i kinda always forgot when im into some other projects. It using React Hooks such as useState, useEffect, useReducer and useRef.",
     "technology": "I use ReactJS, CSS to build the Frontend. For the Data given, i using only dummy data from React State",
-    "techList" : ["ReactJS","CSS"],
-    "websiteUrl" : "https://oriastanjung.github.io/simple-food-order/",
-    "srcThumbnail" : "/projects/simple-food-order/thumbnail.png",
-    "srcFullpage" : "/projects/simple-food-order/fullpage.png"
-},
-{
-    "id" : "9",
-    "title" : "Just Do It",
-    "description" : "This is Todo List Fullstack App using MERN Tech. I Created this project for testing my experience on MERN after Bootcamp MERN a while ago. Sorry, if its a simple app but made complicatedly :)",
+    "techList": ["ReactJS", "CSS"],
+    "websiteUrl": "https://oriastanjung.github.io/simple-food-order/",
+    "srcThumbnail": "/projects/simple-food-order/thumbnail.png",
+    "srcFullpage": "/projects/simple-food-order/fullpage.png"
+  },
+  {
+    "id": "9",
+    "title": "Just Do It",
+    "description": "This is Todo List Fullstack App using MERN Tech. I Created this project for testing my experience on MERN after Bootcamp MERN a while ago. Sorry, if its a simple app but made complicatedly :)",
     "technology": "I use ReactJS, CSS to build the Frontend. Then using NodeJS, ExpressJS, and MongoDB for Backend",
-    "techList" : ["ReactJS","CSS","MongoDB","ExpressJS","NodeJS", "Sweet Alert"],
-    "websiteUrl" : "https://just-do-it.vercel.app/",
-    "srcThumbnail" : "/projects/just-do-it/thumbnail.png",
-    "srcFullpage" : "/projects/just-do-it/fullpage.png"
-},
-{
-    "id" : "10",
-    "title" : "Semina - Event Helder",
-    "description" : "Semina Web Apps is web application that i build when i following Bootcamp in 2022 at BuildWithAngga. Semina, is a web based application that give information about Event Availability and User can create account and joining the Event by Checkout the Payment first.",
+    "techList": [
+      "ReactJS",
+      "CSS",
+      "MongoDB",
+      "ExpressJS",
+      "NodeJS",
+      "Sweet Alert"
+    ],
+    "websiteUrl": "https://just-do-it.vercel.app/",
+    "srcThumbnail": "/projects/just-do-it/thumbnail.png",
+    "srcFullpage": "/projects/just-do-it/fullpage.png"
+  },
+  {
+    "id": "10",
+    "title": "Semina - Event Helder",
+    "description": "Semina Web Apps is web application that i build when i following Bootcamp in 2022 at BuildWithAngga. Semina, is a web based application that give information about Event Availability and User can create account and joining the Event by Checkout the Payment first.",
     "technology": "I use NextJS, ReactJS, Bootstrap 5 to build the Frontend. Then using NodeJS, ExpressJS, and MongoDB for Backend",
-    "techList" : ["NextJS","ReactJS","Bootstrap 5","MongoDB","ExpressJS","NodeJS", "Toastify Alert"],
-    "websiteUrl" : "https://semina-frontend.vercel.app/",
-    "srcThumbnail" : "/projects/semina/thumbnail.png",
-    "srcFullpage" : "/projects/semina/fullpage.png"
-},
-{
-    "id" : "11",
-    "title" : "Semina - Admin Page",
-    "description" : "Semina Admin is the page created for admin Semina to easily Create, Read, Update and Delete data for Semina. It's build when i following Bootcamp in 2022 at BuildWithAngga.",
+    "techList": [
+      "NextJS",
+      "ReactJS",
+      "Bootstrap 5",
+      "MongoDB",
+      "ExpressJS",
+      "NodeJS",
+      "Toastify Alert"
+    ],
+    "websiteUrl": "https://semina-frontend.vercel.app/",
+    "srcThumbnail": "/projects/semina/thumbnail.png",
+    "srcFullpage": "/projects/semina/fullpage.png"
+  },
+  {
+    "id": "11",
+    "title": "Semina - Admin Page",
+    "description": "Semina Admin is the page created for admin Semina to easily Create, Read, Update and Delete data for Semina. It's build when i following Bootcamp in 2022 at BuildWithAngga.",
     "technology": "I use ReactJS, Bootstrap 5 to build the Frontend. Then using NodeJS, ExpressJS, and MongoDB for Backend",
-    "techList" : ["ReactJS","Bootstrap 5","MongoDB","ExpressJS","NodeJS", "Sweet Alert"],
-    "websiteUrl" : "https://github.com/oriastanjung/frontend-semina-server",
-    "srcThumbnail" : "/projects/semina/thumbnail.png",
-    "srcFullpage" : "/projects/semina/fullpage.png"
-},
-{
-    "id" : "12",
-    "title" : "Resto",
-    "description" : "Website i build to following the challenge from BuildWithAngga",
+    "techList": [
+      "ReactJS",
+      "Bootstrap 5",
+      "MongoDB",
+      "ExpressJS",
+      "NodeJS",
+      "Sweet Alert"
+    ],
+    "websiteUrl": "https://github.com/oriastanjung/frontend-semina-server",
+    "srcThumbnail": "/projects/semina/thumbnail.png",
+    "srcFullpage": "/projects/semina/fullpage.png"
+  },
+  {
+    "id": "12",
+    "title": "Resto",
+    "description": "Website i build to following the challenge from BuildWithAngga",
     "technology": "I use HTML5, and Bootstrap 5 to build the Frontend.",
-    "techList" : ["HTML5","Bootstrap 5"],
-    "websiteUrl" : "https://oriastanjung.github.io/bwa-challenge/",
-    "srcThumbnail" : "/projects/resto/thumbnail.png",
-    "srcFullpage" : "/projects/resto/fullpage.png"
-},
-{
-    "id" : "13",
-    "title" : "Oriastanjung - Portofolio V1.0",
-    "description" : "Website that i build to post my portofolio earlier before this Portofolio V2.0 build :)",
+    "techList": ["HTML5", "Bootstrap 5"],
+    "websiteUrl": "https://oriastanjung.github.io/bwa-challenge/",
+    "srcThumbnail": "/projects/resto/thumbnail.png",
+    "srcFullpage": "/projects/resto/fullpage.png"
+  },
+  {
+    "id": "13",
+    "title": "Oriastanjung - Portofolio V1.0",
+    "description": "Website that i build to post my portofolio earlier before this Portofolio V2.0 build :)",
     "technology": "I use HTML5, CSS, Javascript and Bootstrap 4 to build the Frontend.",
-    "techList" : ["HTML5","Bootstrap 4", "CSS", "Javascript"],
-    "websiteUrl" : "https://oriastanjung.github.io/",
-    "srcThumbnail" : "/projects/portofolioV1/thumbnail.png",
-    "srcFullpage" : "/projects/portofolioV1/fullpage.png"
-},
-{
-    "id" : "14",
-    "title" : "SiKilat - Mini Games",
-    "description" : "SiKilat is a game about delivery courier arcade. You need to deliver package that taken from warehouse to client which the location generated randomly. This Game is for my Final Project on my Computer Graphics College Course",
+    "techList": ["HTML5", "Bootstrap 4", "CSS", "Javascript"],
+    "websiteUrl": "https://oriastanjung.github.io/",
+    "srcThumbnail": "/projects/portofolioV1/thumbnail.png",
+    "srcFullpage": "/projects/portofolioV1/fullpage.png"
+  },
+  {
+    "id": "14",
+    "title": "SiKilat - Mini Games",
+    "description": "SiKilat is a game about delivery courier arcade. You need to deliver package that taken from warehouse to client which the location generated randomly. This Game is for my Final Project on my Computer Graphics College Course",
     "technology": "Me and my team use Unity Engine, and C# to build the game. For the assets, we collect and search for the free assets in internet",
-    "techList" : ["Unity Engine","C#"],
-    "websiteUrl" : "https://github.com/oriastanjung/tugas-game-grafkom",
-    "srcThumbnail" : "/projects/sikilat/thumbnail.png",
-    "srcFullpage" : "/projects/sikilat/thumbnail.png"
-},
-{
-    "id" : "15",
-    "title" : "Smart Courier",
-    "description" : "Smart Courier is a project that simulate how the courier find a way to its package and final location to deliver using Dynamic Programming Approach Algorithm. This project is Final Project for my Design and Analysis Algorithm College Course",
+    "techList": ["Unity Engine", "C#"],
+    "websiteUrl": "https://github.com/oriastanjung/tugas-game-grafkom",
+    "srcThumbnail": "/projects/sikilat/thumbnail.png",
+    "srcFullpage": "/projects/sikilat/thumbnail.png"
+  },
+  {
+    "id": "15",
+    "title": "Smart Courier",
+    "description": "Smart Courier is a project that simulate how the courier find a way to its package and final location to deliver using Dynamic Programming Approach Algorithm. This project is Final Project for my Design and Analysis Algorithm College Course",
     "technology": "Me and my team use Python and Pygame Library to make this Project",
-    "techList" : ["Python","Pygame"],
-    "websiteUrl" : "https://github.com/oriastanjung/UAS-PAA",
-    "srcThumbnail" : "/projects/smart-courier/thumbnail.png",
-    "srcFullpage" : "/projects/smart-courier/thumbnail.png"
-}
+    "techList": ["Python", "Pygame"],
+    "websiteUrl": "https://github.com/oriastanjung/UAS-PAA",
+    "srcThumbnail": "/projects/smart-courier/thumbnail.png",
+    "srcFullpage": "/projects/smart-courier/thumbnail.png"
+  },
+  {
+    "id": "16",
+    "title": "Breaking News",
+    "description": "Website that showing the latest and popular news in international",
+    "technology": "Me and my team from Hacktiv8 use Javascript ReactJS with Bootstrap and NEWS ORG API to build this project",
+    "techList": ["ReactJS", "Javascript", "Bootstrap 5", "News Org API"],
+    "websiteUrl": "https://github.com/oriastanjung/breaking-news",
+    "srcThumbnail": "/projects/breaking-news/thumbnail.png",
+    "srcFullpage": "/projects/breaking-news/thumbnail.png"
+  },
+  {
+    "id": "17",
+    "title": "Bukapedia",
+    "description": "Simple E-Commerce Website that using fakestore data to sell and buy products",
+    "technology": "Me and my team from Hacktiv8 use Javascript ReactJS with Tailwind CSS and Fake Store API to build this project",
+    "techList": ["ReactJS", "Javascript", "Tailwind CSS", "Fake Store API"],
+    "websiteUrl": "https://bukapedia-orias.netlify.app/",
+    "srcThumbnail": "/projects/bukapedia/thumbnail.png",
+    "srcFullpage": "/projects/bukapedia/thumbnail.png"
+  },
+  {
+    "id": "18",
+    "title": "Hotel Reservation App",
+    "description": "Mobile App to search and booking hotels that have in Indonesia or Global Country.",
+    "technology": "Me and my team from Hacktiv8 use Javascript React Native and Priceline-Provider API to build this project",
+    "techList": ["ReactJS", "Javascript", "Priceline-Provider API"],
+    "websiteUrl": "https://github.com/oriastanjung/hotel-reservation-app.git",
+    "srcThumbnail": "/projects/hotel-reservation-app/thumbnail.png",
+    "srcFullpage": "/projects/hotel-reservation-app/thumbnail.png"
+  },
+  {
+    "id": "19",
+    "title": "Rivies Movie Apps",
+    "description": "Web Apps that showing latest movies and popular movies, and you even can watch the movies free",
+    "technology": "Me and my team from Hacktiv8 use Javascript ReactJS with Bootstrap 5 and TMDB API to build this project",
+    "techList": ["ReactJS", "Javascript", "Bootstrap 5","TMDB API"],
+    "websiteUrl": "https://rivies.vercel.app/",
+    "srcThumbnail": "/projects/rivies/thumbnail.png",
+    "srcFullpage": "/projects/rivies/thumbnail.png"
+  },
+  {
+    "id": "20",
+    "title": "Sicerdik",
+    "description": "Web Apps that used to make student movement to other school easier and more effective",
+    "technology": "Me and my team use Javascript ReactJS with Bootstrap 5, MongoDB, ExpressJS, PDFTron to build this project",
+    "techList": ["ReactJS", "Javascript", "Bootstrap 5","MongoDB", "ExpressJS", "PDFTron"],
+    "websiteUrl": "restricted_private",
+    "srcThumbnail": "/projects/sicerdik/thumbnail.png",
+    "srcFullpage": "/projects/sicerdik/thumbnail.png"
+  }
+  
 ]

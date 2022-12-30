@@ -9,6 +9,13 @@ import Certificate4IMG from "../../assets/certificates/certificate-04.png";
 import Certificate5IMG from "../../assets/certificates/certificate-05.png";
 import Certificate6IMG from "../../assets/certificates/certificate-06.png";
 import Certificate7IMG from "../../assets/certificates/certificate-07.png";
+import Certificate8IMG from "../../assets/certificates/certificate-08.png"
+import Certificate9IMG from "../../assets/certificates/certificate-09.png"
+import Certificate10IMG from "../../assets/certificates/certificate-10.png"
+// import Certificate8IMG from "../../assets/certificates/certificate-08.png";
+// import Certificate9IMG from "../../assets/certificates/certificate-09.png";
+// import Certificate10IMG from "../../assets/certificates/certificate-010.png";
+// import Certificate11IMG from "../../assets/certificates/certificate-011.png";
 import Image from "next/image";
 
 
@@ -130,6 +137,46 @@ function certificates() {
                   }}
                 >
                   <Image src={Certificate7IMG} />
+                </div>
+              </SwiperSlide>
+              
+              <SwiperSlide>
+                <div
+                  className="certificates-img"
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flex: 1,
+                  }}
+                >
+                  <Image src={Certificate8IMG} />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div
+                  className="certificates-img"
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flex: 1,
+                  }}
+                >
+                  <Image src={Certificate9IMG} />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div
+                  className="certificates-img"
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flex: 1,
+                  }}
+                >
+                  <Image src={Certificate10IMG} />
                 </div>
               </SwiperSlide>
               
